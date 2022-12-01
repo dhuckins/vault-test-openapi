@@ -4,3 +4,5 @@ schemathesis
 testcontainers
 requests
 urllib3
+ghp-import
+tox
