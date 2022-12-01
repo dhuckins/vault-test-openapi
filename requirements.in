@@ -1,0 +1,5 @@
+pytest
+schemathesis
+testcontainers
+requests
+urllib3
