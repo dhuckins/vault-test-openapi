@@ -17,9 +17,9 @@ install dependencies
 (.venv) $ python -m pip install requirements.in  # or the frozen requirements.txt
 ```
 
-run the test(s)
+run the test(s) using tox
 ```shell
-(.venv) $ python -m pytest --html=htmlcov/pytest/index.html --self-contained-html
+(.venv) $ tox
 ```
 
 A test report has been generated, start a dev server
