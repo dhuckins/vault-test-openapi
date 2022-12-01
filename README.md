@@ -19,5 +19,5 @@ install dependencies
 
 run the test(s)
 ```shell
-$ python -m pytest
+$ python -m pytest --html=htmlcov/pytest/index.html --self-contained-html
 ```
