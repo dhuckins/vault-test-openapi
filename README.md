@@ -19,5 +19,12 @@ install dependencies
 
 run the test(s)
 ```shell
-$ python -m pytest --html=htmlcov/pytest/index.html --self-contained-html
+(.venv) $ python -m pytest --html=htmlcov/pytest/index.html --self-contained-html
 ```
+
+A test report has been generated, start a dev server
+```shell
+(.venv) $ python -m http.server
+```
+
+View the report by going to [localhost:8000/htmlcov/pytest](http://localhost:8000/htmlcov/pytest) in your browser
